@@ -1,0 +1,39 @@
+.Header{
+    text-align: center;
+}
+
+hr{
+    background-color: #8C9EBA;
+    height: 1px;
+    width: 92%;
+}
+
+.Menu{
+    list-style: none;
+}
+
+.Menu li{
+    display: inline-block;
+    padding: 5px;
+    text-transform: uppercase;   
+}
+
+.Menu>li>a{
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.Menu>li>a:hover{
+    color: #71CEED;
+}
+
+.searchbar{
+    position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+    .logoClass {
+        width: 100%;
+    }
+  }

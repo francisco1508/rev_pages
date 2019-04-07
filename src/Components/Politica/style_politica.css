@@ -1,0 +1,46 @@
+.upperLetter{
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    text-align: left;
+}
+
+.btn-group-vertical{
+    width: 100%;
+}
+
+.tipoBoton{
+    background-color: #28B5E5;
+    color: white;
+    font-size: 10pt;
+    
+}
+
+.iconElementPolitica{
+    margin-right: 10px;
+}
+
+.marcoDiv{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.divNoticiasPoliticasImagen{
+    display: inline-block;
+    max-width: 35%;
+    min-width: 35%;
+    padding: 5px;
+    position: relative;
+}
+
+.divNoticiasPoliticas{
+    display: inline-block;
+    max-width: 65%;
+    min-width: 65%;
+}
+
+.alignDivTwo{
+    display:inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
