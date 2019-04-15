@@ -5,10 +5,10 @@ import ColumnTwo from './ColumnTwo'
 import ColumnThree from './ColumnThree'
 
 class Home extends Component{
-    
+    /* */
     render(){
         return(
-            <div className="">
+            <div className="container-fluid container_margin">
                 <div className="row">
                     <ColumnOne />
                     <ColumnTwo />

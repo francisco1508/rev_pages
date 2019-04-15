@@ -3,15 +3,15 @@ import './style_politica.css';
 import IconInternacional from '../Global/images/PoliticaImages/icon_internacional.png'
 import IconNacional from '../Global/images/PoliticaImages/icon_flag.png'
 import IconLocal from '../Global/images/PoliticaImages/icon_local.png'
-import TipoElementosPoliticas from './TipoElementosPolitica'
+import ItemElement from '../Global/item/Item';
 
 class Politica extends Component{
     
     render(){
         return(
+            <div className="container-fluid container_margin_politica">
             <div className="row">
-                <div className="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-                <div className="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 classMarginOptions">
                     <div class="btn-group-vertical">
                         <button type="button" className="btn upperLetter tipoBoton">
                         <img className="iconElementPolitica" src={ IconInternacional } alt=""/>
@@ -27,15 +27,40 @@ class Politica extends Component{
                         </button>
                     </div>
                 </div>
-                <div className="col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <div className="col-sm-12 col-md-8 col-lg-8 col-xl-8">
                     <div className="marcoDiv">
-                        <TipoElementosPoliticas />
-                        <TipoElementosPoliticas />
-                        <TipoElementosPoliticas />
-                        <TipoElementosPoliticas />
-                        <TipoElementosPoliticas />
+                        <ItemElement 
+                            title_publish="Titulo de prueba"
+                             name_publish="Francisco Juarez"
+                             date_publish="01-Enero-2019"
+                             description_publish="Con la propiedad justify-content: center hacemos que se centre horizontalmente, mientras que con align-items: center hacemos lo propio verticalmente. Cabe resaltar que estas propiedades sólo aplican en caso que el padre sea de mayor tamaño que el hijo. De hecho, si queremos que el hijo esté centrado en toda la pantalla deberemos asignarle esas dimensiones al padre."
+                             link_publish="https://www.facebook.com/"
+                        />
+                        <ItemElement
+                        title_publish="Un titulo muy largo"
+                             name_publish="Francisco Juarez"
+                             date_publish="01-Enero-2019"
+                             description_publish="Con la propiedad justify-content: center hacemos que se centre horizontalmente, mientras que con align-items: center hacemos lo propio verticalmente. Cabe resaltar que estas propiedades sólo aplican en caso que el padre sea de mayor tamaño que el hijo. De hecho, si queremos que el hijo esté centrado en toda la pantalla deberemos asignarle esas dimensiones al padre."
+                             link_publish="https://www.facebook.com/"
+                        />
+                        <ItemElement
+                        title_publish="Un titulo muy largo"
+                             name_publish="Francisco Juarez"
+                             date_publish="01-Enero-2019"
+                             description_publish="Con la propiedad justify-content: center hacemos que se centre horizontalmente, mientras que con align-items: center hacemos lo propio verticalmente. Cabe resaltar que estas propiedades sólo aplican en caso que el padre sea de mayor tamaño que el hijo. De hecho, si queremos que el hijo esté centrado en toda la pantalla deberemos asignarle esas dimensiones al padre."
+                             link_publish="https://www.facebook.com/"
+                        />
+                        <ItemElement
+                        title_publish="Un titulo muy largo"
+                             name_publish="Francisco Juarez"
+                             date_publish="01-Enero-2019"
+                             description_publish="Con la propiedad justify-content: center hacemos que se centre horizontalmente, mientras que con align-items: center hacemos lo propio verticalmente. Cabe resaltar que estas propiedades sólo aplican en caso que el padre sea de mayor tamaño que el hijo. De hecho, si queremos que el hijo esté centrado en toda la pantalla deberemos asignarle esas dimensiones al padre."
+                             link_publish="https://www.facebook.com/"
+                        />
+                        
                     </div>
                 </div>   
+            </div>
             </div>
         );
     }

@@ -42,14 +42,14 @@
 
 /*      Elements            */
 
-.elementCSS{
-    width: 90%;
-    background-color: #FFFFFF;
+.div_image_element_css{
+    width: 100%;
+    position: relative;
 }
 
 .imageElementsCss{
     width: 100%;
-    position: relative;
+    
 }
 
 .boxInfoElements{
@@ -106,19 +106,92 @@
     letter-spacing: 2pt;
 }
 
+.titleElements{
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 1200px){
+    .elementCSS{
+        width: 90%;
+        background-color: #FFFFFF;
+    }
+    .paragraphElements{
+        text-align: justify;
+        line-height: 100%;
+        font-size: 1.3vw;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .elementCSS{
+        width: 90%;
+        background-color: #FFFFFF;
+    }
+    .paragraphElements{
+        text-align: justify;
+        line-height: 100%;
+        font-size: 1.2vw;
+    }
+    .ajusteParrafo{
+        text-align: left;
+        padding-left: 15px;
+        font-size: 1.1vw;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .elementCSS{
+        width: 90%;
+        background-color: #FFFFFF;
+    }
+    .paragraphElements{
+        text-align: justify;
+        line-height: 100%;
+        font-size: 1.7vw;
+    }
+    .ajusteParrafo{
+        text-align: left;
+        padding-left: 15px;
+        font-size: 1.8vw;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .elementCSS{
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    .paragraphElements{
+        text-align: justify;
+        line-height: 100%;
+        font-size: 2.7vw;
+    }
+
+    .ajusteParrafo{
+        text-align: left;
+        padding-left: 15px;
+        font-size: 2.8vw;
+    }
+}
 
 @media only screen and (max-width: 575px) {
     .rowSpaceMiddle{
         margin-top: 5%;
     }
+    .elementCSS{
+        width: 110%;
+        background-color: #FFFFFF;
+    }
+    .paragraphElements{
+        text-align: justify;
+        line-height: 100%;
+        font-size: 3.4vw;
+    }
+
+    .ajusteParrafo{
+        text-align: left;
+        padding-left: 15px;
+        font-size: 3.2vw;
+    }
 }
 
-.titleElements{
-    text-align: center;
-}
-.paragraphElements{
-    text-align: justify;
-    line-height: 100%;
-    font-size: 10pt;
-}
 

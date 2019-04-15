@@ -1,15 +1,31 @@
+body{
+    background-color: #f1f0f0;
+}
+
+.colores{
+    color: white;
+}
 /*  Carrusel.js */
+
+.centrado-porcentual-logo {
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
 .margin-carousel{
     margin-bottom: 20px; 
 }
 .carousel-inner img {
-    width: 90%;
+    width: 100%;
     height: 100%;
-    margin-left: 5%;
 }
 
 .carousel-item {
-    height: 40vh;
+    height: 50vh;
     min-height: 400px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -17,3 +33,223 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+
+  /*         ItemsElementos                  */
+
+  .itemElementAlineacion{
+    display:inline-block;
+}
+
+.itemElementFormato{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 8pt;
+}
+
+.itemElementCentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centradoHorizontal{
+    text-align: center;
+}
+
+.separacionDerecha{
+    margin-right: 25px;
+}
+
+.disminucionLinea{
+    line-height: 75%;
+    font-weight: bold;
+}
+
+/*  Descripcion Articulo    */
+.contenedorImagen{
+    max-width: 35%;
+    min-width: 35%;
+}
+
+.contenedorArticulo{
+    width: 65%;
+    position: relative;
+}
+
+
+.sectionArticulo{
+    text-align: justify;
+    font-size: 10pt;
+    line-height: 110%;
+    
+
+}
+
+.footerArticulo{
+    text-align: justify;
+    font-size: 8pt;
+}
+
+
+.elementoDescripcionDeArticulo{
+    padding: 5%;
+}
+
+.classFormatDescription{
+   padding-right: 5%;
+}
+
+.classMarginItem{
+    margin-bottom: 4%;
+}
+
+.classMarginOptions{
+    margin-bottom: 5%;
+}
+.text-opinion{
+    font-size: 2vw;
+}
+
+.header_footer_opinion{
+    position: relative;
+}
+
+.header_opinion{
+    position: absolute;
+    top: 0;
+}
+
+.footer_position{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+@media only screen and (min-width: 1200px){
+    .container_margin{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .container_margin_cultura{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .container_margin_opinion{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .container_margin_politica{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .container_margin{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .container_margin_cultura{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .container_margin_politica{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .container_margin_opinion{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .classFormatDescription{
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-left: 5%;
+     }
+     .positionFecha{
+        margin-top: 3%;
+    }
+
+    .imagenArticulo{
+        width: 100%;
+    }
+
+    .container_margin_cultura{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .container_margin_politica{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .container_margin_opinion{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .classFormatDescription{
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-left: 5%;
+     }
+    
+    .positionFecha{
+        margin-top: 3%;
+    }
+
+    .imagenArticulo{
+        text-align: center;
+    }
+
+    .container_margin_cultura{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .container_margin_politica{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .container_margin_opinion{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .classFormatDescription{
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-left: 5%;
+     }
+     .positionFecha{
+        margin-top: 3%;
+    }
+    .imagenArticulo{
+        text-align: center;
+    }
+    
+    .container_margin_politica{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .container_margin_cultura{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .container_margin_opinion{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}

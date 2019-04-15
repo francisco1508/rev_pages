@@ -5,25 +5,26 @@ import DateFormat from './dateFormat'
 class TipoElementosPoliticas extends Component{
     render(){
         return(
-            <div >
+            <div className="elementoDescripcionDeNoticias">
                 <div className="divNoticiasPoliticasImagen">
                     <img
-                        className="mx-auto d-block imageElementsCss"  
+                        className="imageElementsCss"  
                         src={IconImagePolitica } 
                         alt=""/>
                 </div>
                 <div className="divNoticiasPoliticas">
+                    <div className="contenedorDeNoticias">
                     <div className="encabezadoNoticias">
-                    <h5>Titulo</h5>
+                    <h5 className="tituloDeElemento">Titulo</h5>
                     <DateFormat name_publish="Francisco Juarez" date_publish="01 Marzo 2019"/>
                     </div>
                     <div className="descripcionNoticias">
-                    <p>Esto es por que solamentes se esta realizando unas pruebas, ademas de que se tiene un diseño responsive para que se ajuste a todos los dispositivos.</p>
+                    <p>Los artículos determinados en español son el, los, en masculino singular y plural, y la, las, en femenino singular y plural, respectivamente. Cuando un sustantivo va acompañado de un artíulo determinado, juntos forman un grupo nominal definido; es decir, hacen referencia a una entidad que se conoce o se puede identificar a partir de la información presente en el contexto.</p>
                     </div>
-                    <div>
+                    <div className="tituloDeElemento">
                         <a href="https://www.facebook.com">Ver mas...</a>
                     </div>
-
+                    </div>
                 </div>
             </div>
         );

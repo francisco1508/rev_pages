@@ -8,33 +8,45 @@ class Header extends Component{
     static propTypes={
         items: PropTypes.array.isRequired,
     }
+    selectMenu=(ev, class_name)=>{
+        ev.preventDefault();
+        console.log(class_name);
+        var tablinks = document.getElementsByClassName("menu_select");
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active_link", "");
+        }
+        document.getElementById(class_name).style.display = "inline-block";
+        ev.currentTarget.className += " active_link";
+   }
 
     render(){
         // className="col-3 col-sm- col-md- col-lg- col-xl-"
+
         const { title, items } = this.props;
         return(
             <div className="Header">
-                <div className="row">
-                    <div className="col-sm-2 col-md-3 col-lg-3"></div>
-                        <div className="col-sm-4 col-md-6 col-lg-6">
-                        <img className="logoClass" src={ Logo } alt="imagen"/>
-                        </div>
-                    <div className="col-sm-2 col-md-2 col-lg-2 searchbar">   
-                    </div>
-                </div>          
+                <div className="">
+                        <img className="logoClass " src={ Logo } alt="imagen"/>    
+                </div>
                 <hr/>
-                <div className="row">
-                    <div className="col-lg-12">
+                <div className="">
+                    <div className="">
                         <ul className="Menu">
-                            {items && items.map((item, key)=> 
-                            <li key={key}>
+                        {items && items.map((item, key)=> 
+                            <li 
+                                key={key}
+                                id={item.title}
+                                className="menu_select"
+                                onClick={ (e)=>{this.selectMenu(e,item.title)}}
+                            
+                            >
                                 <Link to={item.url}>
                                     {item.title}
                                 </Link>
                             </li>)}
                         </ul>
                     </div>
-                </div>
+                </div> 
             </div>
         );
     }

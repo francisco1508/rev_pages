@@ -1,0 +1,241 @@
+.container_margin_reportaje{
+    background-color: white;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.div_contenedor_reportaje{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon_user_reportaje { 
+    display: inline-block;
+    font-size: 3vh; 
+}
+
+.name_user_reportaje{
+    display: inline-block;
+    font-size: 3vh;
+} 
+
+.icon_calendar_reportaje{
+    display: inline-block;
+    font-size: 3vh;
+} 
+
+.icon_date_reportaje{
+    display: inline-block;
+    font-size: 3vh;
+}
+
+.container_info_reportaje{
+    display: block;
+}
+
+.container_title_reportaje{
+    display: block;
+}
+
+.imagen_perfil_reportaje{
+    width: 100%;
+}
+.parrafo_reportaje{
+    text-align: justify;
+    overflow: auto;
+}
+
+.section_reportaje{
+    padding-right: 5%;
+    padding-left: 2%;
+}
+
+.container_title_reportaje{
+    width: 100%;
+}
+
+.container_info_reportaje{
+    width: 100%;
+}
+
+@media only screen and (min-width: 1200px){
+
+    .parrafo_reportaje{
+        font-size: 1.3vw;
+    }
+
+    .container_margin_reportaje{
+        background-color: white;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .name_user_reportaje{
+        font-size: 1.3vw;
+    }
+    .container_info_reportaje > div{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .container_info_reportaje{
+        margin-bottom: 10px;
+    }
+    .img_style_reportaje{
+        width: .8vw;
+    }
+    .title_reportaje{
+        font-weight: bold;
+        font-size: 1.8vw;
+    }
+    .div_contenedor_reportaje {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .parrafo_reportaje{
+        font-size: 1.3vw;
+    }
+    .container_margin_reportaje{
+        background-color: white;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .name_user_reportaje{
+        font-size: 1.3vw;
+    }
+    .container_info_reportaje > div{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .container_info_reportaje{
+        margin-bottom: 10px;
+    }
+    .img_style_reportaje{
+        width: 1vw;
+    }
+    .title_reportaje{
+        font-weight: bold;
+        font-size: 1.8vw;
+    }
+    .div_contenedor_reportaje {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .parrafo_reportaje{
+        font-size: 1.4vw;
+    }
+
+    .container_margin_reportaje{
+        background-color: white;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .name_user_reportaje{
+        font-size: 1.5vw;
+    }
+    .container_info_reportaje > div{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .container_info_reportaje{
+        margin-bottom: 10px;
+    }
+    .img_style_reportaje{
+        width: 1.1vw;
+    }
+    .title_reportaje{
+        font-weight: bold;
+        font-size: 2vw;
+    }
+    .div_contenedor_reportaje {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .parrafo_reportaje{
+        font-size: 2.8vw;
+        line-height: 20px;
+    }
+    .section_reportaje{
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .title_reportaje{
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
+    .name_user_reportaje{
+        font-size: 2.5vw;
+    }
+
+    .container_info_reportaje > div{
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+
+    .img_style_reportaje{
+        width: 2.3vw;
+    }
+
+    .container_info_reportaje{
+        line-height: 50%;
+        margin-bottom: 10px;
+    }
+
+}
+@media only screen and (max-width: 575px) {
+
+    .parrafo_reportaje{
+        font-size: 2.5vw;
+    }
+
+    .section_reportaje{
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .container_info_reportaje{
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container_info_reportaje > div{
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+
+    .name_user_reportaje {
+        font-size: 3vw;
+    }
+
+    .icon_date_reportaje{
+        font-size: 3vw;
+    }
+   
+    .a_link_more{
+        font-size: 3.5vw;
+    }
+
+    .title_reportaje{
+        font-size: 4.5vw;
+        font-weight: bold;
+    }
+    
+}

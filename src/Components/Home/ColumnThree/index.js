@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ElementosColumnaTres from './elementsCT';
 import ElementosOpinion from './elementsOpinion'
+import Opinion from '../../Global/opinion/Opinion';
 import './style_ct.css'
 
 
@@ -11,8 +12,8 @@ class ColumnThree extends Component{
     */
    render(){
     return(
-        <div className="col-sm-4 col-md-4 col-lg-4 col-xl-4" >
-            <div className="row rowSpace"></div>
+        <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4" >
+            <div className="row rowSpace rowSpaceSmall"></div>
             <div className="row">
                 <div className="titleSection">
                     <div className="alignDiv">
@@ -28,7 +29,7 @@ class ColumnThree extends Component{
                 </div>
             </div>
             <br/>
-            <div className="row">
+            <div className="row elementCSS">
                 <ElementosColumnaTres />
             </div>
             <br/>
@@ -47,8 +48,11 @@ class ColumnThree extends Component{
                 </div>
             </div>
             <br/>
-            <div className="row">
-                <ElementosOpinion />
+            <div>
+                <Opinion 
+                    name_opinion="Francisco Juarez "
+                    text_opinion="Pienso luego existo... o eso creo :/"
+                />
             </div>
             <br/>
         </div>

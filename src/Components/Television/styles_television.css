@@ -1,0 +1,121 @@
+.container_programa{
+    background-color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.container_image{
+    width: 100%;
+    position: relative;
+}
+
+.class_image_tv{
+    width: 100%;
+}
+
+.class_tag_tv{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #0A3A60;
+    padding-top: 1%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.class_play_tv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.parrafo_television{
+   text-align: justify;
+}
+
+@media only screen and (min-width: 1200px){
+    .parrafo_television{
+        font-size: 1.3vw;
+    }
+    .title_television{
+        font-size: 2.5vw;
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .class_play_tv{
+        width: 30%;
+    }
+
+    .class_tag_tv{
+        height: 2.8vw;
+        font-size: 1.5vw;
+    }
+
+    .parrafo_television{
+        font-size: 1.5vw;
+    }
+    .title_television{
+        font-size: 2.6vw;
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .class_play_tv{
+        width: 30%;
+    }
+
+    .class_tag_tv{
+        height: 3.3vw;
+        font-size: 1.8vw;
+    }
+
+    .parrafo_television{
+        font-size: 1.5vw;
+    }
+    .title_television{
+        font-size: 3.2vw;
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .class_play_tv{
+        width: 35%;
+    }
+
+    .class_tag_tv{
+        height: 6vw;
+        font-size: 3vw;
+    }
+
+    .parrafo_television{
+        font-size: 2.2vw;
+    }
+    .title_television{
+        font-size: 3.8vw;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .class_play_tv{
+        width: 35%;
+    }
+
+    .class_tag_tv{
+        height: 4vh;
+    }
+
+    .parrafo_television{
+        font-size: 2.5vw;
+    }
+
+    .title_television{
+        font-size: 4.6vw;
+        font-weight: bold;
+    }
+}

@@ -8,8 +8,8 @@ import ImagenTres from './images/imagen3.jpg'
 class Carrusel extends Component{
     render(){
         return(
-        <div className="row margin-carousel">
-            <div className="col-12 col-xs-12 col-md-12 col-lg-12">
+        <div className="row margin-carousel colores">
+            <div className="col-12 col-xs-12 col-md-12 col-lg-12 colores">
                 <div id="demo" className="carousel slide center-block" data-ride="carousel">
                     <ul className="carousel-indicators">
                         <li data-target="#demo" data-slide-to="0" className="active"></li>

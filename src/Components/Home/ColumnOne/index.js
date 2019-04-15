@@ -18,7 +18,7 @@ class ColumnOne extends Component{
     */
     render(){
         return(
-            <div className="col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+            <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4" >
                 <div className="row rowSpace"></div>
                 <div className="row">
                     <div className="titleSection">

@@ -11,7 +11,7 @@ class Content extends Component{
         const { body } = this.props;
         return(
             <div className="container-fluid contentClass">
-                <div className="container">
+                <div className="container-fluid">
                     <Carrusel />
                     { body }
                 </div>
