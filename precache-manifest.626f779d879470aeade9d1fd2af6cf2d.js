@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/rev_pages/static/media/logo.fd12a1e4.png"
   },
   {
-    "revision": "257c43c1b61e8e4a6c60",
-    "url": "/rev_pages/static/css/main.b06bc0a8.chunk.css"
+    "revision": "b7e8276deea970ee248e",
+    "url": "/rev_pages/static/css/main.4e367dcd.chunk.css"
   },
   {
     "revision": "ef8e31a9348994af7a15",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/rev_pages/static/media/img_opinion.30765d42.png"
   },
   {
-    "revision": "257c43c1b61e8e4a6c60",
-    "url": "/rev_pages/static/js/main.88675c9b.chunk.js"
+    "revision": "b7e8276deea970ee248e",
+    "url": "/rev_pages/static/js/main.c43a6079.chunk.js"
   },
   {
     "revision": "ebbdec1d2fccf423281273e325d69655",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/rev_pages/static/media/img_video.37f17591.jpg"
   },
   {
-    "revision": "b3be2ea566df0a5efddbabb7d8cc042f",
+    "revision": "8b0cc99546d29f45fe279960ac47743a",
     "url": "/rev_pages/index.html"
   }
 ];
