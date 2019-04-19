@@ -6,7 +6,7 @@ class Television extends Component{
     
     render(){
         return(
-            <div className="container-fluid container_margin_television">
+            <div className="container_margin_television">
                 <Programa/>
                 <Programa/>
                 <Programa/>

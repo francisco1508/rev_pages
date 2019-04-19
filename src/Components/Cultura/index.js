@@ -7,7 +7,7 @@ class Cultura extends Component{
     render(){
 
         return(
-            <div className="container-fluid container_margin_cultura">
+            <div className="container_margin_cultura">
             <div className="row">
                 <div className="col-sm-12 col-md-8 col-lg-8 col-xl-8">
                 <div className="marcoDiv">

@@ -7,7 +7,7 @@ class Reportajes extends Component{
     
     render(){
         return(
-            <div className="container-fluid container_margin_reportaje">
+            <div className="container_margin_reportaje">
                 <Reportaje/>
                 <Reportaje/>
                 <Reportaje/>

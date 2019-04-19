@@ -238,18 +238,5 @@ body{
     .imagenArticulo{
         text-align: center;
     }
-    
-    .container_margin_politica{
-        padding-right: 5%;
-        padding-left: 5%;
-    }
 
-    .container_margin_cultura{
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-    .container_margin_opinion{
-        padding-right: 5%;
-        padding-left: 5%;
-    }
 }
