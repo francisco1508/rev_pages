@@ -6,8 +6,8 @@ class FormatoImagen extends Component{
     render(){
         const { pic_publish } = this.props;
         return(
-            <div className="imagenArticulo">
-                <img src={ ImagenArticulo } className="imageElementsCss" alt=""/>
+            <div className="">
+                <img src={ ImagenArticulo } className="elements-image full-width" alt=""/>
             </div>
         );
     }

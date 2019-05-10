@@ -8,7 +8,7 @@ class TipoElementosPoliticas extends Component{
             <div className="elementoDescripcionDeNoticias">
                 <div className="divNoticiasPoliticasImagen">
                     <img
-                        className="imageElementsCss"  
+                        className="elements-image"  
                         src={IconImagePolitica } 
                         alt=""/>
                 </div>

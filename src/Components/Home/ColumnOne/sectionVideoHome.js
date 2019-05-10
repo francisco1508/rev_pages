@@ -6,28 +6,27 @@ class VideoHome extends Component{
     }
     render(){
         return(
-                <div className="containerVideo">
-                    <div className="headerVideo">
+                <div className="container-video">
+                    <div className="header-video">
                         <iframe
                             title="Video"
-                            className="iframeClass"
+                            className="iframe-class"
                             src="https://www.youtube.com/embed/Me2aXBodqnA" 
                             frameborder="0" allow="autoplay; encrypted-media" 
                             allowfullscreen></iframe>
                         <div 
-                            className="iframeTag"
+                            className="iframe-tag"
                             style={this.state.online?{display:"inline"}:{display:"none"}}
                         >En Vivo</div>
-                   
                     </div>
-                    <div className="footerVideo">
-                        <div className="footerVideoTitle">
+                    <div className="footer-video">
+                        <div className="footer-video-title">
                             <strong>Titulo del Video</strong>
                         </div>
-                        <div className="footerVideoDescription">
-                            <div className="uploadByHome">Subido por Francisco </div>
+                        <div className="footer-video-description">
+                            <div className="upload-by-home">Subido por Francisco </div>
                             <div 
-                                className="onlineByHome" 
+                                className="online-by-home" 
                                 style={this.state.online?{display:"inline"}:{display:"none"}}
                             > 
                                 - EN VIVO ahora

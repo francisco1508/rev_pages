@@ -9,7 +9,7 @@ class FormatoDescripcion extends Component{
                 <div className="row sectionArticulo">
                     { description_publish }
                 </div>
-                <div className="row footerArticulo">
+                <div className="row footerArticulo article-margin-top">
                     <a href={ link_publish }>Ver m&aacute;s</a>
                 </div>
             </div>
