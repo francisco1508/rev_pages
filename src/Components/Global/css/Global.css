@@ -3,6 +3,11 @@
     padding-right: 0px;
 }
 
+.margin-dropped{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .padding-dropped-article-menu{
     padding-left: 0px;
 }
@@ -11,9 +16,16 @@ body{
     background-color: #f1f0f0;
 }
 
+.item-style-css{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .marcoDiv{
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);

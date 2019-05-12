@@ -13,7 +13,7 @@ class ItemElement extends Component{
             link_publish
         } = this.props;
         return(
-            <div className="row">
+            <div className="row item-style-css">
                 <div className="col-sm-5 col-md-5 col-lg-5 col-xl-5 padding-dropped-article">
                     <FormatoImagen />
                 </div>

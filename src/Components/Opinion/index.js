@@ -10,7 +10,7 @@ class Opinion extends Component{
     */
     render(){
         return(
-            <div className="container_margin_opinion">
+            <div className="">
             <div className="row">
                 <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 classMarginOptions">
                     <div class="btn-group-vertical">

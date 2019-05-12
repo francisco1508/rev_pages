@@ -3,3 +3,56 @@
     background-color: #0A3A60;
     color: white;
 }
+
+.footer-center{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50px;
+}
+
+.footer-space-element{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    color: white;
+    text-indent: 10px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 9pt;
+  }
+
+.footer-input-textarea{
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    color: white;
+    min-height: 150px;
+    max-height: 150px;
+    text-indent: 10px;
+}
+
+.footer-button{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    right: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-center{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+
+
