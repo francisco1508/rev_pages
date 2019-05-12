@@ -1,35 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "fd12a1e4ba3e0361d4ef298f72035003",
-    "url": "/rev_pages/static/media/logo.fd12a1e4.png"
+    "revision": "ebbdec1d2fccf423281273e325d69655",
+    "url": "/rev_pages/static/media/imagen1.ebbdec1d.jpg"
   },
   {
-    "revision": "b7e8276deea970ee248e",
-    "url": "/rev_pages/static/css/main.4e367dcd.chunk.css"
+    "revision": "46f224c2eaee570cf18a",
+    "url": "/rev_pages/static/css/main.0e67eb89.chunk.css"
   },
   {
     "revision": "ef8e31a9348994af7a15",
     "url": "/rev_pages/static/js/runtime~main.3aa57108.js"
   },
   {
-    "revision": "e1f72ff42d5dc76dc16d",
-    "url": "/rev_pages/static/js/2.808a4388.chunk.js"
+    "revision": "83996f1b2094730a6c35",
+    "url": "/rev_pages/static/js/2.ef951ae5.chunk.js"
   },
   {
     "revision": "71eae7cd6e98ab6b10a1a40da047773c",
     "url": "/rev_pages/static/media/img_card_feed.71eae7cd.png"
   },
   {
-    "revision": "30765d42351a5d96e49dfc245cbc8162",
-    "url": "/rev_pages/static/media/img_opinion.30765d42.png"
+    "revision": "fd12a1e4ba3e0361d4ef298f72035003",
+    "url": "/rev_pages/static/media/logo.fd12a1e4.png"
   },
   {
-    "revision": "b7e8276deea970ee248e",
-    "url": "/rev_pages/static/js/main.c43a6079.chunk.js"
-  },
-  {
-    "revision": "ebbdec1d2fccf423281273e325d69655",
-    "url": "/rev_pages/static/media/imagen1.ebbdec1d.jpg"
+    "revision": "46f224c2eaee570cf18a",
+    "url": "/rev_pages/static/js/main.e2f645a0.chunk.js"
   },
   {
     "revision": "5ae99eaa2f2dc1f794226fbf00b9665e",
@@ -44,11 +40,15 @@ self.__precacheManifest = [
     "url": "/rev_pages/static/media/img_mas_visto.c2cc0a9d.png"
   },
   {
+    "revision": "30765d42351a5d96e49dfc245cbc8162",
+    "url": "/rev_pages/static/media/img_opinion.30765d42.png"
+  },
+  {
     "revision": "37f1759112e73d0b3bb2ae148fc96dd0",
     "url": "/rev_pages/static/media/img_video.37f17591.jpg"
   },
   {
-    "revision": "8b0cc99546d29f45fe279960ac47743a",
+    "revision": "7fad57f7b8e791934f7d6f19bf31ab6b",
     "url": "/rev_pages/index.html"
   }
 ];
